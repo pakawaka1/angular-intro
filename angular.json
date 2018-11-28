@@ -18,26 +18,17 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
-<<<<<<< HEAD
-            "assets": ["src/favicon.ico", "src/assets"],
-=======
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
->>>>>>> 21dae4f6e36fb666ee1546abc6375095b6204ca1
             "styles": [
               "node_modules/bootstrap3/dist/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": [
-<<<<<<< HEAD
-              "node_modules/bootstrap3/dist/js/bootstrap.js",
-              "node_modules/jquery/dist/jquery.js"
-=======
               "node_modules/jquery/dist/jquery.js",
               "node_modules/bootstrap3/dist/js/bootstrap.js"
->>>>>>> 21dae4f6e36fb666ee1546abc6375095b6204ca1
             ]
           },
           "configurations": {
@@ -91,11 +82,6 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
-<<<<<<< HEAD
-            "styles": ["src/styles.css"],
-            "scripts": [],
-            "assets": ["src/favicon.ico", "src/assets"]
-=======
             "styles": [
               "src/styles.css"
             ],
@@ -104,29 +90,18 @@
               "src/favicon.ico",
               "src/assets"
             ]
->>>>>>> 21dae4f6e36fb666ee1546abc6375095b6204ca1
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-<<<<<<< HEAD
-            "tsConfig": ["src/tsconfig.app.json", "src/tsconfig.spec.json"],
-            "exclude": ["**/node_modules/**"]
-=======
-            "tsConfig": [
-              "src/tsconfig.app.json",
-              "src/tsconfig.spec.json"
-            ],
             "exclude": [
               "**/node_modules/**"
             ]
->>>>>>> 21dae4f6e36fb666ee1546abc6375095b6204ca1
           }
         }
       }
     },
-    "angular-intro-p1-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -147,13 +122,9 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "e2e/tsconfig.e2e.json",
-<<<<<<< HEAD
-            "exclude": ["**/node_modules/**"]
-=======
             "exclude": [
               "**/node_modules/**"
             ]
->>>>>>> 21dae4f6e36fb666ee1546abc6375095b6204ca1
           }
         }
       }
