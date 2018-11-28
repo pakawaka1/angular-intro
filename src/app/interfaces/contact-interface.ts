@@ -1,7 +1,9 @@
-export interface TodoInterface {
+export interface ContactInterface {
   id: number;
   name: string;
+  email: string;
+  phone: string;
   tags: string[];
-  isCompleted?: boolean;
   isDeleted?: boolean;
 }
+

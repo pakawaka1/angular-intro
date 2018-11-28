@@ -1,7 +1,8 @@
-export class Todo {
+export class Contact {
   id: number;
   name: string;
+  email: string;
+  phone: string;
   tags: string[];
-  isCompleted = false;
   isDeleted = false;
 }
